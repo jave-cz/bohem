@@ -1,0 +1,18 @@
+@import url("https://pokbeton.cz/moldavite/moldavite.css");
+
+
+.sw-megamenu.navigation.side-megamenu li.level0:first-child, .sw-megamenu.navigation.side-megamenu li.level0:last-child {
+    display: none !important;
+}
+
+.sw-megamenu li.level0:first-child, .sw-megamenu li.level0:last-child {
+    display: none !important;
+}
+
+html .search-category {
+    display: none;
+}
+
+.footer .footer-ribbon {
+    background-color: #28cc63;
+}

@@ -1,0 +1,396 @@
+/**
+ * WARNING: Do not change this file. Your changes will be lost.
+ * 2022-12-11 18:42:35 */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');body.boxed {
+}
+@media (min-width: 768px) {
+    .page-layout-1column .product-info-main, .page-layout-2columns-left .product-info-main, .page-layout-2columns-right .product-info-main, .page-layout-3columns .product-info-main,.page-product-downloadable .product-options-bottom {
+        width: 57.17%;
+    }
+    .page-layout-1column .product.media, .page-layout-2columns-left .product.media, .page-layout-2columns-right .product.media, .page-layout-3columns .product.media,.page-product-downloadable .product-options-wrapper {
+        width: 40.83%;
+    }
+
+    .page-layout-1column .column.main > .custom-block ~ .product-info-main, .page-layout-2columns-left .column.main > .custom-block ~ .product-info-main, .page-layout-2columns-right .column.main > .custom-block ~ .product-info-main, .page-layout-3columns .column.main > .custom-block ~ .product-info-main {
+        width: 42.8775%;
+    }
+    .page-layout-1column .column.main > .custom-block ~ .product.media, .page-layout-2columns-left .column.main > .custom-block ~ .product.media, .page-layout-2columns-right .column.main > .custom-block ~ .product.media, .page-layout-3columns .column.main > .custom-block ~ .product.media {
+        width: 30.6225%;
+    }
+}
+
+@media (max-width: 575px){
+body {
+    font-size: 13px;
+    line-height: 21px;
+}
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #222529;
+    letter-spacing: normal;
+}
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 0 32px 0;
+}
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    margin: 0 0 20px 0;
+}
+h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 14px 0;
+}
+h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 14px 0;
+}
+h6 {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #777;
+}
+.home-banner-slider h2.vc_custom_heading, .custom-font4 {
+    font-family: 'Segoe Script','Savoye LET';
+}
+html .heading-secondary, html .lnk-secondary, html .text-color-secondary {
+    color: #ff7272;
+}
+html .action.primary, html .btn {
+    font-family: Poppins;
+    letter-spacing: .01em;
+    font-weight: 700;
+    line-height: 1.42857;
+    padding: .8em 2em;
+}
+html .action.primary {
+    color: #fff;
+    background-color: #08c;
+    border-color: #08c #08c #069;
+}
+html .btn-modern {
+    font-size: .8125rem;
+    padding: 1em 2.8em;
+    text-transform: uppercase;
+    height: auto;
+}
+.btn-flat {
+    padding: 0!important;
+    background: none!important;
+    border: none!important;
+    border-bottom: 1px solid transparent!important;
+    box-shadow: none!important;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+html .btn-dark {
+    color: #fff;
+    background-color: #222529;
+    border-color: #222529 #222529 #0b0c0e;
+}
+html .btn-light {
+    color: #222529;
+    background-color: #fff;
+    border-color: #fff #fff #e6e6e6;
+}
+html .background-color-secondary {
+    background-color: #ff7272!important;
+}
+.page-header .sw-megamenu.navigation li.level0 > em, .page-header .sw-megamenu.navigation li.level0 i {
+    display: none;
+}
+.top-icon .porto-sicon-header {
+    margin-bottom: .75rem;
+}
+.widget, .sidebar-content .widget {margin-top: 1.5rem;margin-bottom: 1.5rem;}
+.widget .widgettitle {
+    font-size: 1rem;
+    letter-spacing: -.02em;
+}
+.product-item-photo>a:not(.weltpixel-quickview):before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.1);
+    z-index: 3;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.product-item-info:hover .product-item-photo>a:not(.weltpixel-quickview):before {
+    opacity:1;
+}
+.small-list.products-grid .product-items .product-item-info .product-item-photo:before {display: none;}
+.footer .widgettitle, .footer .widget-title {
+    font-size: .9375rem;
+    font-weight: 600;
+}
+
+.footer-bottom address {
+    order: 1;
+    padding: 10px 8px 10px 0;
+    text-align: left;
+    margin-right: auto;
+    text-align: right;
+    flex: auto;
+}@charset "utf-8";
+/* CSS Document */
+html .page-header .panel.wrapper, .main-panel-top {
+	background-color: #222529 !important;
+}
+@media (min-width: 992px) {
+	html header.page-header.sticky-header .nav-sections {
+		background-color: #222529 !important;
+	}
+}
+.porto-sicon-default {
+	POSITION: RELATIVE;
+	TOP: 1PX;
+	LEFT: -3PX;
+}
+
+
+.header-left .logo img {
+	min-width: 170px !important;
+}
+html body .footer-bottom .logo img {
+	max-width: 123px;
+}
+div#tab-label-reviews {
+	display: none !important;
+}
+.field.qty {
+	display: none !important;
+}
+html body .ve_title p {
+	font-size: 1.6em;
+}
+html body .action.primary {
+	color: #fff;
+	background-color: #333;
+	border-color: #00131d #00131d #555;
+}
+.reviews-actions {
+	display: none !important;
+}
+div#checkout-payment-method-load {
+	background: aliceblue;
+	padding: 4%;
+}
+.payment-option._collapsible.opc-payment-additional.discount-code._active {
+	background: slategrey;
+}
+html .home-banner-slider .owl-carousel .owl-dots .owl-dot span {
+	color: #5dbb00!important;
+	border-color: #5fbd00;
+}
+
+
+.payment-method-billing-address {
+	display: none;
+}
+
+
+
+@media (min-width: 992px){
+
+.sw-megamenu.navigation.side-megamenu li.level0:hover {
+	background-color: #3c9d0024;
+	border: none !important;
+}}
+
+
+@media (min-width: 992px) {
+	.sw-megamenu.navigation.side-megamenu li.level0:hover > a, .sw-megamenu.navigation.side-megamenu li.level0.active > a {
+		border-top-color: #00131D;
+		border: none;
+	}
+}
+
+
+
+.header-contact a:visited,  html .alink:visited {
+    color: #26ad4e;
+    text-decoration: none;
+}
+
+html .block-search input {
+
+    background: #fafafa;
+}
+
+html .logo {
+    top:-8px;
+}
+
+@media (max-width: 991px){
+	
+
+.header-top-ads .porto-sicon-box {
+    border-right: none;
+    justify-content: flex-start;
+    padding: 0.75rem 1.5rem;
+	
+	
+	
+}}
+@media (max-width: 991px){
+
+.inhome.col-md-4 {
+    display: inline-block;
+    max-width: 33%;
+}}
+
+.portoblock {
+	
+	display: none;
+}
+
+
+
+
+@media (min-width: 762px){
+
+
+html .header-left .logo img {
+    min-width: inherit !important;
+	margin-top: 0px;
+}}
+
+@media (max-width: 762px){
+/* Inline #64 | https://bohemia-moldavite.cz/ */
+
+.col-md-12.col-lg-4.d-flex.justify-content-center.flex-column {
+}
+
+.col-md-12.col-lg-4.d-flex.justify-content-center.flex-column {
+  max-width: 33%;
+}
+
+/* moldavite.css | https://pokbeton.cz/moldavite/moldavite.css */
+
+.porto-sicon-default {
+  width: 100%;
+  display: block;
+}
+
+/* styles-m.css | https://bohemia-moldavite.cz/static/version1669035457/frontend/Smartwave/porto/cs_CZ/css/styles-m.css */
+
+.porto-sicon-box.default-icon {
+  /* display: in; */
+  display: inline-block;
+}
+
+
+
+}
+
+@media (max-width: 762px){
+
+/* Inline #64 | https://bohemia-moldavite.cz/ */
+
+lord-icon {
+  text-align: center;
+  margin: auto;
+  display: inherit;
+}
+
+.porto-sicon-header > * {
+  font-size: 9px !important;
+  text-align: center;
+}
+	html .header-left .logo img {
+  min-width: inherit !important;
+}}
+	
+/* Inline #33 | https://bohemia-moldavite.cz/ */
+
+@media (max-width: 991px) {
+  .header-top-ads .porto-sicon-box {
+    /* padding: 0.75rem 1.5rem; */
+    padding: 0 1em;
+  }
+
+	.porto-sicon-box.top-icon {
+display: none;
+}
+	
+	.home-banner-slider {
+  display: none;
+}
+
+
+
+.porto-sicon-box.top-icon {
+display: none;
+}
+
+.home-ads.mb-2 {
+  display: none;
+}
+	
+	}
+
+/* Inline #51 | https://bohemia-moldavite.cz/besednice.html */
+
+.side-custom-block > div:last-child {
+  display: none;
+}
+
+li.greet.welcome {
+    display: none !important;
+}
+
+.customer-account-login .page-title-wrapper {
+    display: none !important;
+}
+
+a#tab-label-additional-title, .share-twitter, .share-instagram {
+    display: none;
+}
+
+.loading-mask {
+    display: none !important;
+}
+
+html #ln_slider_price .ui-slider-handle {
+    background-color: white;
+    box-shadow: 0px 0px 0px 3px #3b9d00 !important;
+}
+
+
+
+
+element.style {
+}
+.message.global.noscript, .message.global.cookie {
+    margin: 0 0 0.5em;
+    padding: 12px 1em 12px 1.25em;
+    display: block;
+    font-size: 0.9em;
+    background: #1f2123;
+    border-color: #222529;
+    color: #777;
+    margin: 0;
+    text-align: center;
+    z-index: 9999 !important;
+    color: white;
+    width: 40%;
+    margin: auto;
+    transition: all 300ms ease-in-out;
+}
+
+.page-header .panel.wrapper, .main-panel-top {
+    background-color: #222529;
+}

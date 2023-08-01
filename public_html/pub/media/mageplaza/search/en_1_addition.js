@@ -1,0 +1,3 @@
+;var mp_new_product_search = [{"value":"Vltav\u00edn Besednice 21.3g","s":"EX-0001","c":["4","1","2"],"d":"K\u00e1men poch\u00e1z\u00ed z p\u016fvodn\u00ed lokality Besednice &quot;v\u010del\u00edn&quot; (je\u017ekovna). Jedn\u00e1 se o k\u00e1men nepo\u0161k...","p":213000,"i":"cache\/186247e716950b00c6fdf3b594539eb4\/e\/x\/ex-0001b.jpg","u":"vltavin-besednice-21-3g-ex-0001.html","o":"new_products"}];
+            var mp_most_viewed_products = [];
+            var mp_bestsellers = [];

@@ -1,0 +1,25 @@
+:root {
+  /* fonts */
+  --font-antonio: Antonio;
+  --font-source-code-pro: "Source Code Pro";
+
+  /* font sizes */
+  --font-size-base: 1rem;
+  --font-size-lg: 1.13rem;
+  --font-size-xl: 1.88rem;
+  --font-size-2xl: 5rem;
+
+  /* Colors */
+  --white: #fff;
+  --red-500: #b40d2b;
+  --style: #f2ebcc;
+  --dark-100: #d1d1d1;
+  --color-black: #000;
+  --dark-300: #757576;
+  --dark-500: #19191b;
+  --yellow-200: #f8f7f2;
+
+  /* Paddings */
+  --padding-sm: 1.5rem;
+  --padding-md: 3rem;
+}

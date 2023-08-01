@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<widget>
+			<options>
+				<country/>
+			</options>
+		</widget>
+		<carriers>
+			<packetery>
+				<model>Packetery\Checkout\Model\Carrier\Imp\Packetery\Carrier</model>
+				<active>0</active>
+				<title>Packeta</title>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+			</packetery>
+			<packeteryPacketaDynamic>
+				<model>Packetery\Checkout\Model\Carrier\Imp\PacketeryPacketaDynamic\Carrier</model>
+				<active>0</active>
+				<title>Packeta Feed Carriers</title>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+				<max_weight>30</max_weight>
+			</packeteryPacketaDynamic>
+		</carriers>
+	</default>
+</config>
